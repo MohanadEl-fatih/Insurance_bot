@@ -1,0 +1,15 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+# LangChain packages: pinned to exact versions for API stability
+# LangChain's agent APIs change frequently; using >= can pull incompatible versions
+# Test thoroughly before updating these versions
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-openai==0.1.25
+langchain-community==0.2.19
+redis==5.0.1
+python-dotenv==1.0.0
+httpx==0.25.2
+

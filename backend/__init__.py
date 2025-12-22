@@ -1,0 +1,2 @@
+"""Insurance bot backend package."""
+
