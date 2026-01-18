@@ -1,7 +1,7 @@
 """Chat service for orchestrating conversational interactions."""
-from backend.agent.agent_factory import create_agent_executor
-from backend.memory.redis import get_memory
-from backend.config import settings
+from agent.agent_factory import create_agent_executor
+from memory.redis import get_memory
+from config import settings
 import logging
 
 logger = logging.getLogger(__name__)

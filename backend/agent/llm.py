@@ -1,7 +1,7 @@
 """LLM provider factory for OpenAI, Ollama, and LM Studio."""
 from langchain_openai import ChatOpenAI
 from langchain_core.language_models import BaseChatModel
-from backend.config import settings, ModelProvider
+from config import settings, ModelProvider
 import logging
 
 logger = logging.getLogger(__name__)

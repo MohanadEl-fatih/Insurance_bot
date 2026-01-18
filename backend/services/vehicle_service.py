@@ -1,6 +1,5 @@
 """Vehicle lookup service."""
 from typing import Optional
-from backend.schemas.vehicle import Vehicle
 import logging
 
 logger = logging.getLogger(__name__)

@@ -1,7 +1,7 @@
 """Chat API endpoint."""
 from fastapi import APIRouter, Cookie, Response
-from backend.schemas.chat import ChatRequest, ChatResponse
-from backend.services.chat_service import ChatService
+from schemas.chat import ChatRequest, ChatResponse
+from services.chat_service import ChatService
 import uuid
 import logging
 

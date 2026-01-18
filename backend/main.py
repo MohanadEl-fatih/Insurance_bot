@@ -1,8 +1,8 @@
 """FastAPI application entry point."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.api.chat import router as chat_router
-from backend.config import settings
+from api.chat import router as chat_router
+from config import settings
 import logging
 import os
 

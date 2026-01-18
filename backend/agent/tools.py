@@ -1,8 +1,8 @@
 """LangChain tools that wrap service layer business logic."""
 from langchain_core.tools import tool
 from typing import List, Optional
-from backend.services.vehicle_service import VehicleService
-from backend.services.quote_service import QuoteService
+from services.vehicle_service import VehicleService
+from services.quote_service import QuoteService
 import logging
 
 logger = logging.getLogger(__name__)

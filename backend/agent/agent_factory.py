@@ -1,10 +1,8 @@
 """LangChain agent factory for creating agent executors."""
 from langchain.agents import create_openai_tools_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from backend.agent.llm import get_llm
-from backend.agent.tools import get_tools
-from backend.memory.redis import get_memory
-from backend.config import settings
+from agent.llm import get_llm
+from agent.tools import get_tools
 import logging
 
 logger = logging.getLogger(__name__)

@@ -15,7 +15,7 @@ Next.js::POST(request)
   └─ fetch('http://localhost:8000/chat')
      ↓
 FastAPI::chat(request, response, sid)
-  ├─ uuid.uuid4()                           # Generate session ID
+  ├─ uuid.uuid4()                       6   # Generate session ID
   ├─ response.set_cookie('sid')             # Set session cookie
   └─ ChatService.process_message(session_id, message)
      ↓

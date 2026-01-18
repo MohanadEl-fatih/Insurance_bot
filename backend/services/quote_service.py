@@ -1,6 +1,5 @@
 """Insurance quote service."""
 from typing import List
-from backend.schemas.quote import Quote
 import logging
 
 logger = logging.getLogger(__name__)
